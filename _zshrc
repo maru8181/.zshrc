@@ -39,12 +39,13 @@ alias gt='git stash'
 
 ## zsh
 alias sz='source ~/.zshrc'
-alias vz='vim ~/.zshrc'
+alias vz='vim ~/dotfiles/zshrc/_zshrc'
 
 ## vim
 alias v='vim'
 alias v.='vim .'
 alias vf='vim $(fzf)'
+alias vv='vim ~/dotfiles/vimrc/_vimrc'
 
 ## docker
 alias d='docker'

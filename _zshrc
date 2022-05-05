@@ -64,6 +64,9 @@ alias v.='vim .'
 alias vf='vim $(fzf)'
 alias vv='vim ~/dev/dotfiles/vimrc/_vimrc'
 
+## dotfiles
+alias dot='cd ~/dev/dotfiles'
+
 ## docker
 alias d='docker'
 alias dc='docker-compose'
@@ -75,13 +78,26 @@ alias drun='docker container run —rm -d'
 alias drunit='docker container run —rm -it'
 alias dstop='docker container stop $(dcur)'
 
-alias -g G=' | grep'
-alias -g L=' | less'
-alias ll='ls -l'
-alias la='ls -a'
-alias lla='ls -la'
+alias -g A='| awk'
+alias -g C='| pbcopy'
+alias -g C='| wc -l'
+alias -g G='| grep --color=auto'
+alias -g H='| head'
+alias -g T='| tail'
+alias -g L='| less -R'
+alias -g X='| xargs'
+
+alias ll='ls -alF'
+alias la='ls -AF'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
 alias his='history'
 alias cl='clear'
+alias cp='cp -i'
+alias mv='mv -i'
+alias rm='rm -i'
+alias q='exit'
 alias ctags='ctags -R .'
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"

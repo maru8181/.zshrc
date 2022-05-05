@@ -56,16 +56,16 @@ alias ge='git cherry-pick'
 
 ## zsh
 alias sz='source ~/.zshrc'
-alias vz='vim ~/dev/dotfiles/zshrc/_zshrc'
+alias vz='vim ~/.dotfiles/zshrc/_zshrc'
 
 ## vim
 alias v='vim'
 alias v.='vim .'
 alias vf='vim $(fzf)'
-alias vv='vim ~/dev/dotfiles/vimrc/_vimrc'
+alias vv='vim ~/.dotfiles/vimrc/_vimrc'
 
 ## dotfiles
-alias dot='cd ~/dev/dotfiles'
+alias dot='cd ~/.dotfiles'
 
 ## docker
 alias d='docker'

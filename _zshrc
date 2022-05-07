@@ -80,7 +80,7 @@ alias dstop='docker container stop $(dcur)'
 
 alias -g A='| awk'
 alias -g C='| pbcopy'
-alias -g C='| wc -l'
+alias -g W='| wc -l'
 alias -g G='| grep --color=auto'
 alias -g H='| head'
 alias -g T='| tail'
